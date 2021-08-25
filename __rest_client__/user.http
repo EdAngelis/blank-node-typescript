@@ -1,0 +1,23 @@
+### GET
+
+GET http://localhost:3000/user
+
+### CREATE USER
+POST http://localhost:3000/user/create
+Content-Type: application/json
+
+{
+    "name": "Vetel",
+    "email": "'vetel@gmail.com'",
+}
+
+### Update User
+PUT  http://localhost:3000/user/update/611129518d5d290e407b5412
+Content-Type: application/json
+
+{
+    "email": "ed4ngelis@hotmail.com"
+}
+
+### Delete User
+DELETE http://localhost:3000/user/delete/611129518d5d290e407b5412
