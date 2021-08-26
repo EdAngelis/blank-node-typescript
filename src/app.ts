@@ -21,7 +21,7 @@ app.use(express.urlencoded({
   extended: true
 }))
 
-const allowedOrigins = ['https://blank-vue-crud-mkmz01xqe-edangelis.vercel.app/']
+const allowedOrigins = ['https://blank-vue-crud-mkmz01xqe-edangelis.vercel.app']
 
 const options: cors.CorsOptions = {
   origin: allowedOrigins
